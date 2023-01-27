@@ -36,11 +36,6 @@ inputLine.forEach(thisInputLine => {
                 item.classList.add('error-validation')
                 thisInputLine.classList.add('error-validation')
                 errorAlert.classList.add('error-validation')
-
-                if(item.classList.contains('error-validation')){
-                    thisInputLine.classList.add('error-validation')
-                    errorAlert.classList.add('error-validation')
-                }
             }
         })
     }) 
